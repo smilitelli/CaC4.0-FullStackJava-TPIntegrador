@@ -1,0 +1,151 @@
+header{
+    background: #333a40;
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    height: 20%;
+    margin: 0 auto;
+    display: flex;
+    background-position: left;
+}
+
+.conf{
+    font-size:large;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link{
+    color:#29a744;
+    text-decoration: none;
+}
+
+.ba-banner{
+    width: vw;
+    height: 80vh;
+}
+
+.conf-banner{
+    font-size:xx-large;
+}
+
+
+
+.row banner{
+    display: flex;
+}
+.button-transparent{
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-green{
+    background: #29a744;
+    color:white;
+    border-radius:  10px;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h4-oradores, .p-orador{
+    text-transform: uppercase;
+}
+
+.row-oradores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.col-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.desc-ora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15%;
+
+}
+
+.photo-ora{
+width: 20vw;
+height: auto;
+margin-top:-6%;
+margin-left: 5%;
+
+}
+
+.text{
+    color: gray;
+    margin-top: 20px;
+}    
+
+
+.letra-data{
+    color: gray;
+    font-size: small;
+    display: flex;
+    margin: 10px;
+}
+
+
+.button-enviar{
+   color:white;
+   background:#96c93e;
+   border:none;
+   border-radius: 5px;
+   padding: 5px 300px;
+   margin-bottom: 15px;
+}
+
+footer{
+    background: linear-gradient(to right, #1d3947, #1e5170);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.foot-item{
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+}
