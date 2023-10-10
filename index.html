@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPIntegrador</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./img/codoacodo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                Conf Bs. As.
+            </div>
+            <div>    
+                <ul class="nav">
+                    <li><a href="#"class="nav-item"><b>La conferencia</b></a></li>
+                    <li><a href="#"class="nav-item">Los oradores</a></li>
+                    <li><a href="#"class="nav-item">El lugar y la fecha</a></li>
+                    <li><a href="#"class="nav-item">Conviértete en orador</a></li>
+                    <li><a href="#"class="nav-item-green">Comprar tickets</a></li>
+                </ul>
+            </div>
+          </nav>
+
+    </header>
+
+    <section class="banner">
+        
+      <div class="row banner" align="right">
+            <div>
+                <img src="./img/ba1.jpg" class="ba-banner"  alt="BA photo">
+            </div>
+            <div class="col-12 align-self-center">
+                <h1 class="conf-banner" align="right">Conf Bs. As.</h1>
+                <p style="max-width: 550px;" >Bs. As. llega por primera vez a Argentina. Un evento para compartir con nuestra
+                comunidad el conocimiento y experiencia de  los expertos que están creando el futuro de internet
+                Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que 
+                tenemos para tí. Te esperamos!</p>
+            </div>
+           <button class="button-transparent" type="button">Quiero ser orador</button>
+           <button class="button-green" type="button">Comprar tickets</button>
+      </div>
+       
+    </section>
+
+    <section class="oradores">
+        <p class="p-orador" align="center">Conoce a los <h4 class="h4-oradores" align="center">oradores</h4></p>
+        <div class="row-oradores">
+            <div class="col-4">
+                <br>
+                <img src="./img/steve.jpg" class="photo-ora" alt="Steve Jobs photo">
+                <h3>Steve Jobs</h3>
+                <p class="desc-ora">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-4">
+                <br>
+                <img src="./img/bill.jpg" class="photo-ora" alt="Bill Gates photo">
+                <h3>Bill Gates</h3>
+                <p class="desc-ora">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-4">
+                <br>
+                <img src="./img/ada.jpeg" class="photo-ora" alt="Ada Lovelace photo">
+                <h3>Ada Lovelace</h3>
+                <p class="desc-ora">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="carrousel">
+        
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/ba2.jpg" class="d-block w-500" alt="BA photo1">
+               
+              </div>
+              <div class="carousel-item">
+                <img src="./img/ba3.jpg" class="d-block w-500" alt="BA photo2">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/honolulu.jpg" class="d-block w-200" alt="beach">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+                  <h5 class="card-title">Bs. As. - Octubre</h5>
+                  <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+                    Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre
+                    de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el 
+                    condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad
+                    (aproximadamente 600 km2 de superficie).</p>
+
+    </section>
+    
+    <section class="formulario">
+        <div class="row">
+            <br>
+            <p class="p-orador" align="center">Conviértete en un<h4 class="h4-oradores" align="center">orador</h4></p>
+            <p class="p-orador-anota" align="center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        </div>
+        <form class="f2" align="center">
+            <input type="text" name="nombre" value="Nombre" class="letra-data">
+            <input type="text" name="apellido" value="Apellido" class="letra-data">
+            <textarea rows="5" cols="70" class="text">"Sobre qué quieres hablar?"</textarea>
+            <p class="letra-data">Recuerda incluir un título para tu charla</p>
+            <input type="submit" name="enviar" class="button-enviar">
+        </form>
+    </section>
+
+    <footer class="row footer justify-content-between">
+        <ul class="foot">  
+            <li class="foot-item">Preguntas <br>frecuentes</li>
+            <li class="foot-item">Contáctanos</li>
+            <li class="foot-item">Prensa</li>
+            <li class="foot-item">Conferencias</li>
+            <li class="foot-item">Términos y condiciones</li>
+            <li class="foot-item">Privacidad</li>
+            <li class="foot-item">Estudiantes</li>
+        </ul>
+    </footer>
+</div>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

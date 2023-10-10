@@ -4,11 +4,11 @@ header{
 }
 
 .logo{
-    width: 30%;
-    height: 20%;
+    
     margin: 0 auto;
     display: flex;
-    background-position: left;
+    
+    position: right;
 }
 
 .conf{
@@ -16,40 +16,56 @@ header{
     color: white;
 }
 
+.navbar-brand{
+    font-size:large;
+    color: white;
+    text-decoration: none;
+}
 ul{
     list-style: none;
+    display: flex;
 }
 
 .nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around;    
+
+
 }
 
 .nav-item{
     color:white;
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;
+    display: flex;
+   text-align: right;
 }
 
-.nav-link{
+.nav-item-green{
     color:#29a744;
     text-decoration: none;
 }
 
 .ba-banner{
-    width: vw;
+    width: 99vw;
     height: 80vh;
+    
 }
 
 .conf-banner{
     font-size:xx-large;
+    
 }
 
-
-
+.col-12 align-self-center{
+    position: absolute;
+    opacity: .8;
+}
 .row banner{
     display: flex;
+    position:absolute;
 }
 .button-transparent{
     border-radius: 10px;
@@ -100,8 +116,14 @@ ul{
 width: 20vw;
 height: auto;
 margin-top:-6%;
-margin-left: 5%;
+margin-left: 1%;
 
+}
+
+.d-block{
+    width: 50vw;
+    height: auto;
+    margin-top: 1%;
 }
 
 .text{
@@ -114,9 +136,8 @@ margin-left: 5%;
     color: gray;
     font-size: small;
     display: flex;
-    margin: 10px;
+    margin: 10px;    
 }
-
 
 .button-enviar{
    color:white;
@@ -145,7 +166,7 @@ footer{
 
 .foot-item{
     color:white;
-    margin-left: 10px;
+    margin: 10px;
     margin-right: 10px;
-    padding: 30px;
+    padding: 30px;   
 }
